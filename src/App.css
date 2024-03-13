@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.info-panel {
+  display: none; /* 默认不显示 */
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  z-index: 10;
+}
